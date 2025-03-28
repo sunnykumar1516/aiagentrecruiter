@@ -1,0 +1,68 @@
+{
+    "skills": {
+        "Programming Languages": [
+            "Java",
+            "Python",
+            "C++"
+        ],
+        "Development Tools": [
+            "Spring MVC",
+            "GWT",
+            "Wicket"
+        ],
+        "Databases": [
+            "relational databases",
+            "ORM",
+            "SQL"
+        ],
+        "Web Technologies": [
+            "HTML5",
+            "CSS3",
+            "content management systems"
+        ],
+        "Scripting and Testing": [
+            "scripting",
+            "test automation"
+        ]
+    },
+    "experience": [
+        {
+            "years": {
+                "Min": 5,
+                "Max": "software and networking platforms"
+            },
+            "level": "required"
+        },
+        {
+            "years": {
+                "Min": 7,
+                "Max": "Java, Python, and C++"
+            },
+            "level": "required"
+        }
+    ],
+    "education": [
+        {
+            "degrees": [
+                "Bachelor\u2019s degree (or equivalent)"
+            ],
+            "fields": [
+                "software engineering",
+                "information technology"
+            ]
+        }
+    ],
+    "keywords": [
+        "self-serve computing",
+        "reporting solutions",
+        "interactive querying",
+        "unit tested",
+        "code reviewed",
+        "continuous integration",
+        "monitoring",
+        "automated remediation",
+        "synchronous and asynchronous design patterns",
+        "global technology stack",
+        "site reliability"
+    ]
+}
