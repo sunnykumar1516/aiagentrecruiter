@@ -1,6 +1,6 @@
 Sample software engineer job description
 At company x, our technology solves problems. We’ve established the company as a leading developer of innovative software solutions, and we’re looking for a highly skilled software engineer to join our program and network design team. The ideal candidate will have expert knowledge of software development processes, along with solid experience in testing and evaluating current networking systems. This person should be highly motivated in finding technical issues and fixing them with meticulous code.
-
+test
 Objectives of this role
 Enhance existing platform and network capabilities to handle massive growth, enabling new insights and products based on data via self-serve computing, reporting solutions, and interactive querying
 Visualize, design, and develop innovative software platforms as we continue to experience growth in the usage and visibility of our products
