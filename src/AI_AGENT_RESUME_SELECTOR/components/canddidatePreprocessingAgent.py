@@ -8,7 +8,7 @@ import re
 import csv
 
 api_key = os.environ["GROQ_API_KEY"]
-
+print("-------key",api_key)
 path = "params.yaml"
 params=yaml.safe_load(open(path))['preprocess']
 print("loading YAML",path)
