@@ -14,7 +14,7 @@ req_colums=["skills_required","educationaL_requirements",
             "experiencere_requirement"]
 
 data = pd.read_csv(params["input"])
-data = data[0:500]
+data = data.sample(n=500, random_state=42) 
 data.to_csv(params['input'])
 print("preprocessing data")
 candidates = data[candidate_colums]
