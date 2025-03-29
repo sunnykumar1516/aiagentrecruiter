@@ -1,5 +1,4 @@
 from src.AI_AGENT_RESUME_SELECTOR.components import canddidatePreprocessingAgent as ca
-#import  canddidatePreprocessingAgent as ca
 import gradio as gr
 from src.AI_AGENT_RESUME_SELECTOR.components import jobpreprocessingAgent as ja
 
@@ -9,7 +8,7 @@ def agent_response(text,file):
     req = ja.agent.run(text)
     req = str(req.content)
     ca.convert_file_json()
-    response = ca.agent.run(f"here is job requirments{req}. use this to select candidate")
+    response = ca.agent.run(f"here is job requirments{req}. use this to select candidate. explain also why you are selecting the candidate.")
     return response.content,req
 
 
