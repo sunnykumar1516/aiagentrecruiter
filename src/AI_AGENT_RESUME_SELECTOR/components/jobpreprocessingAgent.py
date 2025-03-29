@@ -1,4 +1,5 @@
-from entity import projectEntity
+from src.AI_AGENT_RESUME_SELECTOR.components.entity import projectEntity
+
 import os
 import yaml
 from agno.agent import Agent, RunResponse

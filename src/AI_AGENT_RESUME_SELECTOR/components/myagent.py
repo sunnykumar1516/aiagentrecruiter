@@ -1,6 +1,9 @@
-import  canddidatePreprocessingAgent as ca
+from src.AI_AGENT_RESUME_SELECTOR.components import canddidatePreprocessingAgent as ca
+#import  canddidatePreprocessingAgent as ca
 import gradio as gr
-import jobpreprocessingAgent as ja
+from src.AI_AGENT_RESUME_SELECTOR.components import jobpreprocessingAgent as ja
+
+
 
 def agent_response(text,file):
     req = ja.agent.run(text)
@@ -22,4 +25,4 @@ face = gr.Interface(
    
 )
 
-face.launch()
+#face.launch()
