@@ -17,8 +17,10 @@ def agent_response(text,selection,file):
         if selection == "use default job requirments":
             req = ca.read_job_req()
             req = str(req)
-        else:
+        elif selection == "use default job requirments" :
             req = extract_requirment(file)
+        else:
+            return "no file uploaed","no file uploaded"
 
         ca.convert_file_json()
         response = ca.agent.run(f"here is job requirments{req}.Here is what i want : {text}")
