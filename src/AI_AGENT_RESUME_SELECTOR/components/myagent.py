@@ -11,18 +11,21 @@ def read_txt_file(file):
     return content
 
 def agent_response(text,selection,file):
-    req = ""
-    print(">>>>>>>selected option:",selection)
-    if selection == "use default job requirments":
-        req = ca.read_job_req()
-        req = str(req)
-    else:
-        req = extract_requirment(file)
+    try:
+        req = ""
+        print(">>>>>>>selected option:",selection)
+        if selection == "use default job requirments":
+            req = ca.read_job_req()
+            req = str(req)
+        else:
+            req = extract_requirment(file)
 
-    ca.convert_file_json()
-    response = ca.agent.run(f"here is job requirments{req}.Here is what i want : {text}")
-    
-    return response.content,selection + req
+        ca.convert_file_json()
+        response = ca.agent.run(f"here is job requirments{req}.Here is what i want : {text}")
+        
+        return response.content,selection + req
+    except Exception:
+        return "error occured","error occured"
 
 def extract_requirment(file):
     text = read_txt_file(file)
