@@ -1,162 +1,162 @@
 [
     {
         "id": 0,
-        "skills": "['Big Data', 'Hadoop', 'Hive', 'Python', 'Mapreduce', 'Spark', 'Java', 'Machine Learning', 'Cloud', 'Hdfs', 'YARN', 'Core Java', 'Data Science', 'C++', 'Data Structures', 'DBMS', 'RDBMS', 'Informatica', 'Talend', 'Amazon Redshift', 'Microsoft Azure']",
-        "degree_names": "['B.Tech']",
-        "professional_company_names": "['Coca-COla']",
-        "start_dates": "['Nov 2019']",
-        "end_dates": "['Till Date']"
+        "skills": "",
+        "degree_names": "",
+        "professional_company_names": "",
+        "start_dates": "",
+        "end_dates": ""
     },
     {
         "id": 1,
-        "skills": "['Data Analysis', 'Data Analytics', 'Business Analysis', 'R', 'SAS', 'PowerBi', 'Tableau', 'Data Visualization', 'Business Analytics', 'Machine Learning']",
-        "degree_names": "['B.Sc (Maths)', 'M.Sc (Science) (Statistics)']",
-        "professional_company_names": "['BIB Consultancy']",
-        "start_dates": "['Sep 2019']",
-        "end_dates": "['Till Date']"
+        "skills": "['assembly', 'ATM', 'Cadence', 'calibration', 'CA', 'hardware', 'DC', 'de-bugging', 'Ethernet', 'Graphic', 'ISO 9000', 'LabView', 'layout', 'Linux OS', 'Logic', 'Mentor', 'Access', 'MS Office', 'Windows', 'multimeters', 'network', 'networking', 'ORCAD', 'oscilloscopes', 'power supplies', 'procurement', 'purchasing', 'Quality Assurance', 'Routers', 'schematics', 'signal generators', 'SONET', 'Switches', 'T1', 'test equipment', 'trouble shooting', 'troubleshooting', 'validation', 'View']",
+        "degree_names": "['Associate Degree']",
+        "professional_company_names": "['Company Name', 'Company Name', 'Company Name']",
+        "start_dates": "['August 2007', 'January 2002', 'April 1995']",
+        "end_dates": "['October 2014', 'June 2007', 'November 2001']"
     },
     {
         "id": 2,
-        "skills": "['Software Development', 'Machine Learning', 'Deep Learning', 'Risk Assessment', 'Requirement Gathering', 'Application Support', 'JavaScript', 'Python', 'Docker', 'HTML', 'Hive', 'CSS', 'C', 'C++']",
-        "degree_names": "['B.Tech']",
-        "professional_company_names": "['Axis Bank Limited']",
-        "start_dates": "['June 2018']",
-        "end_dates": "['Till Date']"
+        "skills": "",
+        "degree_names": "",
+        "professional_company_names": "",
+        "start_dates": "",
+        "end_dates": ""
     },
     {
         "id": 3,
-        "skills": "['accounts payables', 'accounts receivables', 'Accounts Payable', 'Accounts Receivable', 'administrative functions', 'trial balance', 'banking', 'budget', 'bi', 'closing', 'Computer Applications', 'Credit', 'clients', 'Customer Service', 'data entry', 'delivery', 'driving', 'email', 'insurance', 'inventory', 'ledger', 'Access', 'Excel', 'Outlook', 'PowerPoint', 'Word', 'mortgage loan', 'Enterprise', 'policies', 'QuickBooks', 'Sales', 'sales reports', 'telecommunications', 'phone', 'workflow', 'written']",
-        "degree_names": "['Computer Applications Specialist Certificate Program']",
-        "professional_company_names": "['Company Name \u00ef\u00bc City , State', 'Company Name \u00ef\u00bc City , State', 'Company Name \u00ef\u00bc City , State', 'Company Name \u00ef\u00bc City , State', 'Company Name \u00ef\u00bc City , State', 'N/A']",
-        "start_dates": "['January 2011', 'January 2008', 'January 2006', 'January 2004', 'January 2001', 'N/A']",
-        "end_dates": "['November 2015', 'January 2010', 'January 2008', 'January 2006', 'January 2004', None]"
+        "skills": "",
+        "degree_names": "",
+        "professional_company_names": "",
+        "start_dates": "",
+        "end_dates": ""
     },
     {
         "id": 4,
-        "skills": "['Analytical reasoning', 'Compliance testing knowledge', 'Effective time management', 'Public and private accounting', 'accounting', 'accounting systems', 'accounts payable', 'accounts receivable', 'administrative', 'AR', 'billing', 'closing', 'client', 'clients', 'documentation', 'financial', 'financial reports', 'preparation of financial reports', 'Preparation of financial statements', 'fixed assets', 'managing', 'month-end closing', 'policies', 'maintain records', 'reporting', 'Research', 'sales', 'tax', 'taxes', 'tax returns', 'annual reports', 'year-end']",
-        "degree_names": "['Bachelor of Business Administration']",
-        "professional_company_names": "['Company Name', 'Company Name', 'Company Name', 'Company Name', 'Company Name']",
-        "start_dates": "['January 2016', 'January 2016', 'January 2012', 'January 2009', 'January 2006']",
-        "end_dates": "['Current', 'January 2016', 'January 2015', 'January 2011', 'January 2009']"
+        "skills": "",
+        "degree_names": "",
+        "professional_company_names": "",
+        "start_dates": "",
+        "end_dates": ""
     },
     {
         "id": 5,
-        "skills": "['Microsoft Applications', 'Network Security', 'Networking', 'PC hardware and software installation, configuration, and troubleshooting', 'Remote Desktop and Help Desk Management', 'Verbal Communication', 'Technical Support', 'Team Leadership', 'Programming Languages', 'On-call tech support', 'Windows & Mac OS', 'Wiring/Wire Spicing: Cat3, Cat5, Cat5e, Coaxial', 'Management', 'VoIP, TCP/IP, IPSec, ATM, SS7, IPX, DNS, BIND, DHCP, HSRP and LAN/WAN architecture', 'Application Development', 'Voice Over IP Telephone', 'Inventory Management']",
-        "degree_names": "['Bachelor Degree', 'Associate Degree']",
-        "professional_company_names": "['N/A', 'Company Name', 'Company Name']",
-        "start_dates": "['August 2006', 'August 2013', 'July 2014']",
-        "end_dates": "['January 2013', 'September 2014', 'Current']"
+        "skills": "",
+        "degree_names": "",
+        "professional_company_names": "",
+        "start_dates": "",
+        "end_dates": ""
     },
     {
         "id": 6,
-        "skills": "['Machine Learning', 'Linear Regression', 'Ridge Regression', 'Lasso Regression', 'Tableau', 'Time Series Analysis']",
-        "degree_names": "['B.Tech']",
-        "professional_company_names": "['Remiro Amio']",
-        "start_dates": "['Jan 2019']",
-        "end_dates": "['Sep 2019']"
+        "skills": "",
+        "degree_names": "",
+        "professional_company_names": "",
+        "start_dates": "",
+        "end_dates": ""
     },
     {
         "id": 7,
-        "skills": "['Maintenance', 'Corrective Maintenance', 'Documentation', 'Industrial Machinery', 'Preventive Maintenance', 'Sensors', 'Biotechnology', 'Electrical Mechanical', 'Estimation', 'Hydraulics', 'Mechanical Technician', 'Pneumatics', 'Project Manager', 'Sop', 'Manufacturing Process', 'Apqp', 'Assembly', 'Circuit Boards', 'Dmm', 'Electrical Test', 'Esd', 'First Article Inspection', 'Inspection', 'Medical Devices', 'Oscilloscope', 'Production Process', 'Schematic', 'Soldering', 'Surface Mount', 'Test Engineer', 'Through-hole', 'Wiring', 'Calibration', 'Control Systems', 'Packaging', 'Process Control', 'Sensor', 'Temperature', 'And Humidity', 'Control System Design', 'Electrical Engineer', 'Engineer', 'Entry Level', 'Ieee', 'Mechanical/electrical Engineer', 'Proactive', 'Self Motivated', 'Testing', 'Training', 'Electrical Engineering', 'Pr', 'Public Relations']",
-        "degree_names": "['Bachelor of Science']",
-        "professional_company_names": "['Company Name', 'Company Name', 'Company Name']",
-        "start_dates": "['January 2013', 'January 2011', 'January 2005']",
-        "end_dates": "['Current', 'January 2012', 'January 2011']"
+        "skills": "",
+        "degree_names": "",
+        "professional_company_names": "",
+        "start_dates": "",
+        "end_dates": ""
     },
     {
         "id": 8,
-        "skills": "['Python', 'Machine Learning', 'MySQL', 'Data Mining', 'Deep Learning', 'Data Analysis', 'Computer Vision', 'Flask API', 'Predictive Modeling', 'AWS', 'Scikit-Learn', 'Numpy', 'Statistical Analysis', 'Multivariate Analysis', 'Decision Trees', 'Random Forest', 'Xgboost', 'NLP']",
-        "degree_names": "['B.Tech/B.E.']",
-        "professional_company_names": "['AMZ Loans and Mortgages ERC Analytics']",
-        "start_dates": "['Jun 2019']",
-        "end_dates": "['till date']"
+        "skills": "",
+        "degree_names": "",
+        "professional_company_names": "",
+        "start_dates": "",
+        "end_dates": ""
     },
     {
         "id": 9,
-        "skills": "['Django', 'Python', 'Relational databases', 'RestAPI', 'Github', 'Jira', 'PostgreSQL', 'Software development', 'Debugging', 'Machine learning', 'Natural language Processing', 'Artificial Intelligence', 'Data Analysis', 'Docker', 'Tornado', 'Software Developer', 'Project Management']",
-        "degree_names": "['BCA', 'MCA']",
-        "professional_company_names": "['Daffodil Software Pvt Ltd']",
-        "start_dates": "['Jan 2019']",
-        "end_dates": "['Till Date']"
+        "skills": "",
+        "degree_names": "",
+        "professional_company_names": "",
+        "start_dates": "",
+        "end_dates": ""
     },
     {
         "id": 10,
-        "skills": "['Microsoft Office Suite', 'VideoScribe Software', 'PeopleSoft Finance Applications', 'Accounting', 'billing', 'Change Management', 'contracts', 'Client Relations', 'Database', 'delivery', 'Eclipse', 'Finance', 'financial reporting', 'financial statements', 'Front Office', 'hiring', 'instructor', 'Instructional Design', 'Leadership training', 'logistics', 'managing', 'needs analysis', 'payables', 'PeopleSoft HRMS', 'PeopleSoft', 'personnel', 'Program Management', 'Project Management', 'project plans', 'Teaching', 'training materials', 'training design and development', 'training material', 'training programs', 'upgrade', 'view']",
-        "degree_names": "['Master of Science', 'Bachelor of Science', 'Bachelor of Science']",
-        "professional_company_names": "['Company Name', 'Company Name', 'Company Name']",
-        "start_dates": "['January 1995', 'January 2003', 'January 1993']",
-        "end_dates": "['Current', 'January 2004', 'January 1995']"
+        "skills": "",
+        "degree_names": "",
+        "professional_company_names": "",
+        "start_dates": "",
+        "end_dates": ""
     },
     {
         "id": 11,
-        "skills": "['R', 'Python', 'Tableau', 'Power BI', 'SQL', 'SAS', 'Deep Learning', 'Neural Networks', 'Artificial Intelligence']",
-        "degree_names": "['BCA']",
-        "professional_company_names": "['DENA FUNDS']",
-        "start_dates": "['APR 2020']",
-        "end_dates": "['TILL DATE']"
+        "skills": "",
+        "degree_names": "",
+        "professional_company_names": "",
+        "start_dates": "",
+        "end_dates": ""
     },
     {
         "id": 12,
-        "skills": "['Data Analytics', 'Linear Regression', 'Logistic Regression', 'Business Intelligence', 'Business Analysis', 'GraphQL', 'Python']",
-        "degree_names": "['B.A']",
-        "professional_company_names": "['D&D Consultancy', 'Tanisha Quromba Brokerage']",
-        "start_dates": "['Jul 2020', 'Dec 2019']",
-        "end_dates": "['till date', 'May 2020']"
+        "skills": "",
+        "degree_names": "",
+        "professional_company_names": "",
+        "start_dates": "",
+        "end_dates": ""
     },
     {
         "id": 13,
-        "skills": "['C', 'C++', 'Python', 'JAVA', 'HTML', 'CSS', 'JavaScript', 'Data Structures', 'SQL', 'PyCharm', 'Jupyter Notebook', 'Google Colab', 'Code Blocks', 'MATLAB', 'Turbo C++', 'MS Office', 'Scikit-Learn', 'TensorFlow', 'OpenCV', 'NumPy', 'Pytesseract', 'Keras']",
-        "degree_names": "['B.Tech. (Electrical Engineering Specialization in Computer Science)', 'XII', 'X']",
-        "professional_company_names": "['Genisup India Pvt. Ltd.', 'VUGS Technologies']",
-        "start_dates": "['July 2021', 'May 2021']",
-        "end_dates": "['Aug 2021', 'June 2021']"
+        "skills": "",
+        "degree_names": "",
+        "professional_company_names": "",
+        "start_dates": "",
+        "end_dates": ""
     },
     {
         "id": 14,
-        "skills": "['Java', 'Spring', 'Javascript', 'CSS', 'HTML', 'REST APIs', 'React Native', 'Kotlin', 'PostgreSQL', 'MySQL']",
-        "degree_names": "['Bachelor of Science']",
-        "professional_company_names": "['Genesis10', 'Novalsys, Inc']",
-        "start_dates": "['May 2021', 'January 2021']",
-        "end_dates": "['current', 'May 2021']"
+        "skills": "",
+        "degree_names": "",
+        "professional_company_names": "",
+        "start_dates": "",
+        "end_dates": ""
     },
     {
         "id": 15,
-        "skills": "['Machine Learning', 'Method Development', 'Artificial Intelligence', 'Data Modeling', 'Data Visualization', 'Data Validation', 'Deep Learning', 'MySQL', 'MongoDB', 'Python', 'Plotly', 'Seaborn', 'Matplotlib']",
-        "degree_names": "['B.Tech']",
-        "professional_company_names": "['BlueM Solutions']",
-        "start_dates": "['Jun 2020']",
-        "end_dates": "['till date']"
+        "skills": "",
+        "degree_names": "",
+        "professional_company_names": "",
+        "start_dates": "",
+        "end_dates": ""
     },
     {
         "id": 16,
-        "skills": "['budget', 'hardware', 'network systems', 'database', 'Dec', 'documentation', 'inspection', 'logistics', 'meetings', 'MS Excel', 'Microsoft Office', 'Outlook', 'PowerPoint', 'network', 'networking', 'Operating Systems', 'Oracle', 'personnel', 'presentations', 'progress', 'quality', 'Maintain documentation', 'routers', 'safety', 'scheduling', 'shipping', 'spreadsheets', 'supervision']",
-        "degree_names": "['Business Administration']",
-        "professional_company_names": "['Company Name', 'Company Name', 'Company Name', 'Company Name']",
-        "start_dates": "['01/2014', '12/2012', '01/2011', '07/2004']",
-        "end_dates": "['Current', None, '12/2013', '12/2010']"
+        "skills": "",
+        "degree_names": "",
+        "professional_company_names": "",
+        "start_dates": "",
+        "end_dates": ""
     },
     {
         "id": 17,
-        "skills": "['Artificial Intelligence', 'Deep Learning', 'Reinforcement Learning', 'Tensorflow Keras', 'Scikit learn', 'Numpy', 'Pandas', 'Matplotlib']",
-        "degree_names": "['B.Tech(IT)']",
-        "professional_company_names": "['Larsen & Toubro']",
-        "start_dates": "['Dec 2019']",
-        "end_dates": "['Till Date']"
+        "skills": "",
+        "degree_names": "",
+        "professional_company_names": "",
+        "start_dates": "",
+        "end_dates": ""
     },
     {
         "id": 18,
-        "skills": "['Java', 'Spring', 'Javascript', 'CSS', 'HTML', 'REST APIs', 'React Native', 'Kotlin', 'PostgreSQL', 'MySQL']",
-        "degree_names": "['Bachelor of Science']",
-        "professional_company_names": "['Genesis10', 'Novalsys, Inc']",
-        "start_dates": "['May 2021', 'January 2021']",
-        "end_dates": "['current', 'May 2021']"
+        "skills": "",
+        "degree_names": "",
+        "professional_company_names": "",
+        "start_dates": "",
+        "end_dates": ""
     },
     {
         "id": 19,
-        "skills": "['Machine learning', 'Data Science', 'Deep Learning', 'Decision Trees', 'Random Forest', 'XGBoost', 'CATBoost', 'Classification', 'Regression', 'Scikit Learn', 'Numpy', 'Pandas', 'OpenCV', 'Python', 'Matplotlib', 'Loss Optimization']",
-        "degree_names": "['B.Tech']",
-        "professional_company_names": "['TML Infotech']",
-        "start_dates": "['Mar 2019']",
-        "end_dates": "['till date']"
+        "skills": "",
+        "degree_names": "",
+        "professional_company_names": "",
+        "start_dates": "",
+        "end_dates": ""
     }
 ]

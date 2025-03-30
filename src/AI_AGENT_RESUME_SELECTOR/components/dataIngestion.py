@@ -23,3 +23,4 @@ reqs = data[req_colums]
 reqs = reqs[0:20]
 candidates.to_csv(params['outputcandidate'])
 reqs.to_csv(params['outputreq'])
+print("----data preprocesse sucessfully----")

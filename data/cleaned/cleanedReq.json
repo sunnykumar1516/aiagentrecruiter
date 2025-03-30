@@ -1,60 +1,77 @@
 {
     "skills": {
         "items": {
-            "Java": "",
-            "Python": "",
-            "C++": "",
-            "scripting": "",
-            "test automation": "",
-            "relational databases": "",
-            "ORM": "",
-            "SQL": "",
-            "HTML5": "",
-            "CSS3": "",
-            "content management systems": "",
-            "Wicket": "",
-            "GWT": "",
-            "Spring MVC": ""
+            "programming languages": [
+                "Java",
+                "Python",
+                "C++"
+            ],
+            "software engineering": [
+                "software development processes",
+                "rapid development cycles in web-based environment"
+            ],
+            "tools and technologies": [
+                "Java",
+                "Python",
+                "C++",
+                "ORM",
+                "SQL",
+                "HTML5",
+                "CSS3",
+                "content management systems",
+                "Wicket",
+                "GWT",
+                "Spring MVC"
+            ],
+            "methodologies": [
+                "design processes",
+                "testing",
+                "analytics",
+                "troubleshooting",
+                "scaly software platforms",
+                "networking solutions"
+            ]
         },
-        "type": ""
+        "type": "object"
     },
-    "experience": [
-        {
-            "level": "five_or_more_years",
-            "description": "Software and networking platforms"
+    "experience": {
+        "items": {
+            "types": [
+                "software engineering experience",
+                "networking platforms experience"
+            ],
+            "duration": {
+                "minimum": "5 years",
+                "preference": "7 years (professional and academic)"
+            }
         },
-        {
-            "level": "seven_or_more_years",
-            "description": "Java, Python, and C++"
-        },
-        {
-            "level": "rapid_development_cycles",
-            "description": "web-based environment"
-        },
-        {
-            "level": "web_application_development",
-            "description": "multiple frameworks"
-        }
-    ],
-    "education": [
-        "Bachelor\u2019s degree (or equivalent) in software engineering or information technology"
-    ],
-    "keywords": [
-        "innovative software solutions",
-        "software development processes",
-        "networking systems",
-        "self-serve computing",
-        "reporting solutions",
-        "interactive querying",
-        "scalable software platforms",
-        "continuous integration",
-        "unit testing",
-        "code review",
-        "networking solutions",
-        "automated remediation",
-        "full software development lifecycle",
-        "design patterns",
-        "agile",
-        "software and network system functionality"
-    ]
+        "type": "object"
+    },
+    "education": {
+        "items": [
+            "Bachelor\u2019s degree (or equivalent) in software engineering or information technology"
+        ],
+        "type": "array"
+    },
+    "keywords": {
+        "items": [
+            "software development",
+            "networking",
+            "innovative software solutions",
+            "technical issues",
+            "code review",
+            "continuous integration",
+            "automated remediation",
+            "distributive software",
+            "global team collaboration",
+            "professional growth",
+            "training",
+            "education",
+            "product management",
+            "user experience",
+            "web application development",
+            "site reliability"
+        ],
+        "type": "array"
+    }
 }

@@ -40,7 +40,7 @@ def read_job_req()-> json:
         print("job data---",data)
         return str(data)
 def read_candidates()-> json:
-    """this function returns list of candiated in json form"""
+    """this function returns list of candidates in json form"""
     with open(params['jsoncandidate'], "r", encoding="utf-8") as f:
         data = json.load(f)
         print("candidate data---",data)
@@ -53,6 +53,15 @@ agent = Agent(
     ),
   
     instructions=["""
+                  read_candidates will give you list of candidates in this format.
+                  record = {
+                "id":index,
+                "skills": ,
+                "degree_names": ,
+                "professional_company_names":
+                "start_dates": 
+                "end_dates": 
+            } 
                   very important dont add any fake data, use onlt the data provided.
                   1. load job requirments.
                   2. load all the candidates
@@ -62,6 +71,3 @@ agent = Agent(
     show_tool_calls=True, 
     markdown=True
     )
-
-#response = agent.run("add score to candidates based on skill")
-#print(response.content)

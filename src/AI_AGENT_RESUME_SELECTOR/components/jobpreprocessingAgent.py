@@ -43,6 +43,7 @@ txt = load_jd(params['inputJobreq'])
 response = agent.run(txt)
 print(response.content)
 op = json.loads(response.content)
+
 with open(params['jsonJobReq'], "w") as f:
     print("------",params['jsonJobReq'])
     json.dump(op, f, indent=4)
