@@ -39,6 +39,7 @@ def read_job_req()-> json:
         data = json.load(f)
         print("job data---",data)
         return str(data)
+     
 def read_candidates()-> json:
     """this function returns list of candidates in json form"""
     with open(params['jsoncandidate'], "r", encoding="utf-8") as f:

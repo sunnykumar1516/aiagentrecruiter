@@ -1,77 +1,57 @@
 {
     "skills": {
         "items": {
-            "programming languages": [
-                "Java",
-                "Python",
-                "C++"
-            ],
-            "software engineering": [
-                "software development processes",
-                "rapid development cycles in web-based environment"
-            ],
-            "tools and technologies": [
-                "Java",
-                "Python",
-                "C++",
-                "ORM",
-                "SQL",
-                "HTML5",
-                "CSS3",
-                "content management systems",
-                "Wicket",
-                "GWT",
-                "Spring MVC"
-            ],
-            "methodologies": [
-                "design processes",
-                "testing",
-                "analytics",
-                "troubleshooting",
-                "scaly software platforms",
-                "networking solutions"
-            ]
+            "Java": {},
+            "Python": {},
+            "C++": {},
+            "relational databases": {},
+            "ORM": {},
+            "SQL": {},
+            "HTML5": {},
+            "CSS3": {},
+            "content management systems": {},
+            "Wicket": {},
+            "GWT": {},
+            "Spring MVC": {},
+            "scripting": {},
+            "test automation": {}
         },
-        "type": "object"
+        "type": "array"
     },
     "experience": {
-        "items": {
-            "types": [
-                "software engineering experience",
-                "networking platforms experience"
-            ],
-            "duration": {
-                "minimum": "5 years",
-                "preference": "7 years (professional and academic)"
-            }
+        "years": {
+            "professional": 5,
+            "academic": 7
         },
         "type": "object"
     },
     "education": {
-        "items": [
-            "Bachelor\u2019s degree (or equivalent) in software engineering or information technology"
-        ],
+        "items": {
+            "Bachelor\u2019s degree": {
+                "in": "software engineering or information technology"
+            }
+        },
         "type": "array"
     },
     "keywords": {
-        "items": [
-            "software development",
-            "networking",
-            "innovative software solutions",
-            "technical issues",
-            "code review",
-            "continuous integration",
-            "automated remediation",
-            "distributive software",
-            "global team collaboration",
-            "professional growth",
-            "training",
-            "education",
-            "product management",
-            "user experience",
-            "web application development",
-            "site reliability"
-        ],
+        "items": {
+            "software development processes": {},
+            "networking systems": {},
+            "testing": {},
+            "network design": {},
+            "technical issues": {},
+            "scalable software platforms": {},
+            "efficient networking solutions": {},
+            "self-serve computing": {},
+            "reporting solutions": {},
+            "interactive querying": {},
+            "product features": {},
+            "system capabilities": {},
+            "continuous integration": {},
+            "automation": {},
+            "distributed software": {},
+            "synchronous and asynchronous design patterns": {}
+        },
         "type": "array"
     }
 }
