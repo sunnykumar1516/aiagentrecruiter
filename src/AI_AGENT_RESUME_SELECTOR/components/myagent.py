@@ -1,6 +1,13 @@
 from src.AI_AGENT_RESUME_SELECTOR.components import canddidatePreprocessingAgent as ca
 import gradio as gr
 from src.AI_AGENT_RESUME_SELECTOR.components import jobpreprocessingAgent as ja
+import os
+
+#--- setting api key----
+api_key = ""
+def set_api_key(api_key):
+    os.environ["GROQ_API_KEY"] = api_key 
+    return "API Key saved successfully!"
 
 # Function to process the uploaded text file
 def read_txt_file(file):
@@ -11,6 +18,7 @@ def read_txt_file(file):
     return content
 
 def agent_response(text,selection,file):
+    print(">>>>>>>>>updated key:--",os.environ.get("GROQ_API_KEY"))
     try:
         req = ""
         print(">>>>>>>selected option:",selection)
@@ -36,7 +44,7 @@ def extract_requirment(file):
     return response.content
 
 
-
+''''
 # Gradio interface
 face = gr.Interface(
     fn=agent_response,
@@ -52,3 +60,47 @@ face = gr.Interface(
     title="AI Recruiter Agent",
 
 )
+'''
+with gr.Blocks(title="AI Recruiter Agent") as face:
+
+    gr.Markdown("## AI Recruiter Agent")
+    gr.Markdown("### Created by [Sunny Kumar](https://www.linkedin.com/in/sunny-kumar-b232417a/)")
+    with gr.Tabs():
+        with gr.Tab("Main App"):
+            with gr.Row():
+                textbox_input = gr.Textbox(lines=2, placeholder="enter text here", label="Your Query")
+                file_input = gr.File(file_types=[".txt"], label="Upload Job Requirements.")
+
+            with gr.Row():
+                radio_input = gr.Radio(
+                    choices=["use default job requirments", "upload my custom job requirments"],
+                    label="Pick one",
+                    value="use default job requirments"
+                )
+
+            with gr.Row():
+                output_candidate = gr.Textbox(label="Selected Candidate")
+                output_skills = gr.Textbox(label="Skills Extracted")
+
+            submit_button = gr.Button("Submit")
+
+            examples = gr.Examples(
+                examples=[
+                    ["select the best candidate for my job requirment based on skills"],
+                    ["list only the id of candidates who are suitable for job"]
+                ],
+                inputs=[textbox_input]
+            )
+
+            submit_button.click(
+                fn=agent_response,
+                inputs=[textbox_input, radio_input, file_input],
+                outputs=[output_candidate, output_skills]
+            )
+        with gr.Tab("API"):
+            gr.Markdown("## Manage groq API Keys")
+            api_key_input = gr.Textbox(label="Enter API Key", type="password")
+            save_btn = gr.Button("Save API Key")
+            api_status = gr.Textbox(label="Status", interactive=False)
+            save_btn.click(set_api_key, inputs=api_key_input, outputs=api_status)
+

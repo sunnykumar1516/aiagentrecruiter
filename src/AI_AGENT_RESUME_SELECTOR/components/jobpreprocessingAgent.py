@@ -6,8 +6,8 @@ from agno.agent import Agent, RunResponse
 from agno.models.groq import Groq
 import json
 import re
-
-api_key = os.environ["GROQ_API_KEY"] 
+#api_key = os.environ.get("GROQ_API_KEY")
+api_key = os.environ.get("GROQ_API_KEY")
 print("-------key",api_key)
 path = "params.yaml"
 params=yaml.safe_load(open(path))['preprocess']
