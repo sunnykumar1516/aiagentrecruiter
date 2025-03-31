@@ -17,7 +17,7 @@ def agent_response(text,selection,file):
         if selection == "use default job requirments":
             req = ca.read_job_req()
             req = str(req)
-        elif selection == "use default job requirments" :
+        elif selection == "upload my custom job requirments" :
             req = extract_requirment(file)
         else:
             return "no file uploaed","no file uploaded"
@@ -31,6 +31,7 @@ def agent_response(text,selection,file):
 
 def extract_requirment(file):
     text = read_txt_file(file)
+    text = str(text)
     response = ja.agent.run(text)
     return response.content
 
@@ -43,11 +44,11 @@ face = gr.Interface(
             gr.Radio(choices=["use default job requirments","upload my custom job requirments"], label="Pick one", value="use default job requirments"),
             gr.File(file_types=[".txt"])
             ],
-    outputs=["text","text"],
+    outputs=[gr.Textbox(label="selected candidate"),gr.Textbox(label="skills extracted")] ,
     examples=[
         ["select the best candidate for my job requirment based on skills"],
         ["list only the id of candidates who are suitable for job"]
     ],
-    title="Simple Agent",
-   
+    title="AI Recruiter Agent",
+
 )

@@ -1,57 +1,80 @@
 {
     "skills": {
         "items": {
-            "Java": {},
-            "Python": {},
-            "C++": {},
-            "relational databases": {},
-            "ORM": {},
-            "SQL": {},
-            "HTML5": {},
-            "CSS3": {},
-            "content management systems": {},
-            "Wicket": {},
-            "GWT": {},
-            "Spring MVC": {},
-            "scripting": {},
-            "test automation": {}
-        },
-        "type": "array"
-    },
-    "experience": {
-        "years": {
-            "professional": 5,
-            "academic": 7
+            "Programming Languages": [
+                "Java",
+                "Python",
+                "C++"
+            ],
+            "Development Methodologies": [
+                "Rapid development cycles",
+                "Continuous Integration",
+                "Agile",
+                "Version Control"
+            ],
+            "Databases": [
+                "Relational databases",
+                "ORM technologies",
+                "SQL technologies"
+            ],
+            "Functionalities": [
+                "Web development",
+                "Scripting",
+                "Test automation"
+            ],
+            "Frameworks": [
+                "Wicket",
+                "GWT",
+                "Spring MVC"
+            ],
+            "Tools": [
+                "Content management systems",
+                "HTML5",
+                "CSS3"
+            ]
         },
         "type": "object"
     },
-    "education": {
-        "items": {
-            "Bachelor\u2019s degree": {
-                "in": "software engineering or information technology"
+    "experience": {
+        "items": [
+            {
+                "Work Experience": [
+                    "Five or more years of experience as engineer of software and networking platforms"
+                ]
+            },
+            {
+                "Education": [
+                    "Seven or more years of experience (professional and academic) in general"
+                ]
+            },
+            {
+                "Project Types": [
+                    "Development of software and networking platforms"
+                ]
             }
-        },
+        ],
+        "type": "array"
+    },
+    "education": {
+        "items": [
+            {
+                "Type": "Bachelor\u2019s degree (or equivalent) in software engineering or information technology"
+            },
+            {
+                "Degree": "Bachelor\u2019s degree"
+            }
+        ],
         "type": "array"
     },
     "keywords": {
-        "items": {
-            "software development processes": {},
-            "networking systems": {},
-            "testing": {},
-            "network design": {},
-            "technical issues": {},
-            "scalable software platforms": {},
-            "efficient networking solutions": {},
-            "self-serve computing": {},
-            "reporting solutions": {},
-            "interactive querying": {},
-            "product features": {},
-            "system capabilities": {},
-            "continuous integration": {},
-            "automation": {},
-            "distributed software": {},
-            "synchronous and asynchronous design patterns": {}
-        },
+        "items": [
+            "agile",
+            "software development",
+            "networking",
+            "programming",
+            "testing",
+            "evaluation"
+        ],
         "type": "array"
     }
 }

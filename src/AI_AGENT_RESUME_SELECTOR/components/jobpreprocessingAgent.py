@@ -41,7 +41,7 @@ Only return valid JSON.
 
 txt = load_jd(params['inputJobreq'])
 response = agent.run(txt)
-print(response.content)
+print(">>>>>> here is respone >>>",f"data{response.content}")
 op = json.loads(response.content)
 
 with open(params['jsonJobReq'], "w") as f:
