@@ -104,3 +104,7 @@ with gr.Blocks(title="AI Recruiter Agent") as face:
             api_status = gr.Textbox(label="Status", interactive=False)
             save_btn.click(set_api_key, inputs=api_key_input, outputs=api_status)
 
+        with gr.Tab("Image"):
+            gr.Markdown("## Architecture")
+            image = gr.Image(value="data/image/arch.png", label="© sunny kumar", type="filepath")
+
