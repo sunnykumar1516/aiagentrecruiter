@@ -32,8 +32,8 @@ def agent_response(text,selection,file):
 
         ca.convert_file_json()
         response = ca.agent.run(f"here is job requirments{req}.Here is what i want : {text}")
-        
-        return response.content,selection + req
+        resp = f"here is reponse:-------- {str(response.content)}"
+        return resp,selection + req
     except Exception:
         return "error occured","error occured"
 

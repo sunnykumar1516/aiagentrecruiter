@@ -1,53 +1,54 @@
 {
     "skills": {
-        "Java": {},
-        "Python": {},
-        "C++": {},
-        "Scripting": {},
-        "Test Automation": {},
-        "Relational Databases": {},
-        "ORM and SQL Technologies": {},
-        "HTML5": {},
-        "CSS3": {},
-        "Content Management Systems": {},
-        "Wicket": {},
-        "GWT": {},
-        "Spring MVC": {}
+        "items": {
+            "software development processes": null,
+            "testing and evaluating current networking systems": null,
+            "expert knowledge of Java, Python, and C++": null,
+            "scripting and test automation": null,
+            "relational databases and ORM technologies": null,
+            "HTML5, CSS3, and content management systems": null,
+            "Wicket, GWT, and Spring MVC frameworks": null
+        },
+        "type": "object"
     },
     "experience": {
-        "Platform Development": {},
-        "Network Design": {},
-        "Software Testing": {},
-        "Service Uptime Improvement": {},
-        "Software Deployment and Management": {},
-        "Distributed Software and Applications": {},
-        "Project Planning and Execution": {},
-        "Software Development Lifecycle": {},
-        "Automated Remediation": {}
+        "items": [
+            "Five or more years as an engineer of software and networking platforms",
+            "Seven or more years of experience (professional and academic) with Java, Python, and C++"
+        ],
+        "type": "array"
     },
     "education": {
-        "Bachelor's Degree in Software Engineering or Information Technology": {}
+        "items": [
+            "Bachelor\u2019s degree (or equivalent) in software engineering or information technology"
+        ],
+        "type": "array"
     },
     "keywords": {
-        "Innovative Software Solutions": {},
-        "Software Development Processes": {},
-        "Testing and Evaluating Current Networking Systems": {},
-        "Network Capabilities": {},
-        "Massive Growth": {},
-        "Data-Driven Computing": {},
-        "Self-Serve Computing": {},
-        "Reporting Solutions": {},
-        "Interactive Querying": {},
-        "Scalable Software Platforms": {},
-        "Efficient Networking Solutions": {},
-        "Unit Testing": {},
-        "Code Review": {},
-        "Continuous Integration": {},
-        "Automated Development": {},
-        "Testing and Deployment": {},
-        "Service Uptime": {},
-        "Time-to-Resole": {},
-        "Global Technology Stack": {},
-        "Localized Improvements": {}
+        "items": [
+            "software engineer",
+            "network design",
+            "innovative software solutions",
+            "networking systems",
+            "software development processes",
+            "testing and evaluating",
+            "network capabilities",
+            "data via self-serve computing",
+            "reporting solutions",
+            "interactive querying",
+            "visible products",
+            "scalable software platforms",
+            "applications",
+            "efficient networking solutions",
+            "continuous integration",
+            "monitoring and automated remediation",
+            "full software development lifecycle",
+            "distributed software",
+            "synchronous and asynchronous design patterns",
+            "distributed applications",
+            "standards",
+            "expectations"
+        ],
+        "type": "array"
     }
 }

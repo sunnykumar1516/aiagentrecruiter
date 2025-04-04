@@ -11,3 +11,6 @@ class Candidate(BaseModel):
     experience:list
     education:list
     company:list
+
+class Selection(BaseModel):
+    candidate:Candidate

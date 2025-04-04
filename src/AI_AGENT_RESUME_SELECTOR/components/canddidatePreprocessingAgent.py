@@ -64,7 +64,7 @@ agent = Agent(
                 "start_dates": 
                 "end_dates": 
             } 
-                  very important dont add any fake data, use onlt the data provided.
+                  very important dont add any fake data, use only the data provided.
                   1. load job requirments.
                   2. load all the candidates
                   3. select best candidate
